@@ -1,0 +1,264 @@
+body{
+    background-color: #262626;
+  }
+  .navigation {
+    height: 70px;
+    background: black;
+  }
+  
+  #logo{
+    height: 80px;
+    margin-top: px;
+  }
+  
+  .brand {
+    position: absolute;
+    padding-left: 10px;
+    float: left;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-size: 1.4em;
+  }
+  .brand a,
+  .brand a:visited {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .nav-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  nav {
+    float: right;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    float: left;
+    position: relative;
+  }
+  nav ul li a,
+  nav ul li a:visited {
+    display: block;
+    padding: 0 20px;
+    line-height: 70px;
+    background: black;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  nav ul li a:hover,
+  nav ul li a:visited:hover {
+    background: #2581DC;
+    color: #ffffff;
+  }
+  nav ul li a:not(:only-child):after,
+  nav ul li a:visited:not(:only-child):after {
+    padding-left: 4px;
+    content: ' ▾';
+  }
+  nav ul li ul li {
+    min-width: 190px;
+  }
+  nav ul li ul li a {
+    padding: 15px;
+    line-height: 20px;
+  }
+  
+  .nav-dropdown {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  }
+  .nav-mobile {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: black;
+    height: 70px;
+    width: 70px;
+  }
+a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.li_inner{
+  position: absolute;
+  top: 40%;
+  left: 800px;
+  border: solid 1px black;
+  width: 150px;
+}
+.li_inner_1{
+  position: absolute;
+  top: 40%;
+  left: 970px;
+  border: solid 1px black;
+  width: 150px;
+}
+.li_inner_2{
+  position: absolute;
+  top: 40%;
+  left: 1140px;
+  border: solid 1px black;
+  width: 150px;
+}
+.article_info{
+      font-family: 'Verdana', "gulim", "굴림";
+  font-size: 12px;
+  line-height: 14px;
+  list-style: none;
+  color: #b2b2b2;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: top;
+  background: transparent;
+  height: 150px;
+  margin: 15px auto 20px;
+}
+.lazyload_lazy{
+  width: 150px;
+}
+.rcm{
+  position: absolute;
+  top: 25%;
+  left: 55%;
+  font-size: 30px;
+}
+#something{
+  height: 100px;
+}
+.bnnr{
+  left: 0px;
+  position: absolute;
+  top: 70px;
+  width: 1600px;
+  color: rgb(119, 117, 117);
+  background: linear-gradient(black,#262626);
+}
+.shoes{
+  float: left;
+  margin-left: 300px;
+  text-align: center;
+}
+#shoes{
+  width: 50px;
+  margin-top: 5px;
+}
+.cloth{
+  display: inline-block;
+  margin-left: 90px;
+  text-align: center;
+}
+#cloth{
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+}
+.ntbk{
+  display: inline-block;
+  margin-left: 90px;
+  text-align: center;
+}
+#ntbk{
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+}
+.fur{
+  display: inline-block;
+  margin-left: 90px;
+  text-align: center;
+}
+#fur{
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+}
+.phone{
+  display: inline-block;
+  margin-left: 90px;
+  text-align: center;
+}
+#phone{
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+}
+.ear{
+  display: inline-block;
+  margin-left: 90px;
+  text-align: center;
+}
+#ear{
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+}
+.bnnr p{
+  margin-top: 0px;
+}
+.pricerange{
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  text-align: center;
+}
+#pricerange{
+  height: 100px;
+}
+.range_bar{
+  position: absolute;
+  top: 67%;
+  left: 12%;
+  text-align: center;
+}
+.tagging{
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  color: white;
+  font-size: 25px;
+  font-family: 'Verdana', "gulim", "굴림";
+}
+#tag{
+  height: 100px;
+}
+.hashtag_wrap{
+  position: absolute;
+  width:300px;
+  top: 38%;
+  left: 12%;
+  font-family: 'Verdana', "gulim", "굴림";
+  font-size: 23px;
+  color:rgba(255, 255, 255, 0.568);
+  vertical-align: top;
+  background: transparent;
+}
+.hashtag_wrap a{
+  border: solid 2px rgba(255, 255, 255, 0.568);
+  border-radius: 20%;
+}
+.temp{
+  position: absolute;
+  top: 45%;
+  left: 33%;
+  text-align: center;
+}
+#temp{
+  height: 100px;
+}
+.cc{
+  position: absolute;
+  top: 50%;
+  left: 29%;
+  text-align: center;
+}
